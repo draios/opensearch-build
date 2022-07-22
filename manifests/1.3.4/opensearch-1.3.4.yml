@@ -9,8 +9,8 @@ ci:
     args: -e JAVA_HOME=/opt/java/openjdk-11
 components:
   - name: OpenSearch
-    repository: https://github.com/opensearch-project/OpenSearch.git
-    ref: tags/1.3.4
+    repository: https://github.com/draios/OpenSearch.git
+    ref: fix/3962
     checks:
       - gradle:publish
       - gradle:properties:version
