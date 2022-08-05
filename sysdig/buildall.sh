@@ -1,6 +1,6 @@
 #!/bin/bash
 CONTAINER=builder:test
-VERSION="1.3.4"
+VERSION="1.3.5"
 
 echo "<=== Removing old containers"
 docker rm -f builder assembler
